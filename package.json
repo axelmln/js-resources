@@ -1,0 +1,45 @@
+{
+  "name": "js-resources",
+  "version": "1.0.0",
+  "description": "A small set of utility functions and classes.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll --runInBand",
+    "build": "tsc -d -p tsconfig.build.json",
+    "doc": "typedoc --plugin typedoc-plugin-markdown --excludePrivate --exclude ./src/array/**/boosted-array.ts --out docs src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "boost",
+    "boosted",
+    "extend",
+    "extended",
+    "utils",
+    "toolbox",
+    "array",
+    "object",
+    "promise",
+    "promise",
+    "boolean",
+    "time",
+    "error"
+  ],
+  "author": "Axel Maulion",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axelmln/js-resources"
+  },
+  "bugs": {
+    "url": "https://github.com/axelmln/js-resources/issues"
+  },
+  "homepage": "https://github.com/axelmln/js-resources",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "jest": "^29.6.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  }
+}
